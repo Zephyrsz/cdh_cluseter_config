@@ -1,0 +1,98 @@
+# jump server bash file
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/bin
+
+export PATH
+####xydw
+alias a20='ssh user_00@10.3.0.20'
+alias a21='ssh user_00@110.3.0.39 '
+alias a23='ssh user_00@10.3.0.43 '
+alias a24='ssh user_00@10.3.0.60 '
+alias a25='ssh user_00@10.3.0.97 '
+
+
+alias a32='ssh user_00@10.3.0.9'
+alias a33='ssh user_00@10.3.0.2'
+alias a34='ssh user_00@10.3.0.3'
+alias a35='ssh user_00@10.3.0.4'
+alias a36='ssh user_00@10.3.0.5'
+alias a37='ssh user_00@10.3.0.6'
+alias a38='ssh user_00@10.3.0.7'
+alias a39='ssh user_00@10.3.0.8'
+alias a40='ssh user_00@10.3.0.10'
+alias a41='ssh user_00@10.3.0.11'
+alias a42='ssh user_00@10.3.0.12'
+alias a43='ssh user_00@10.3.0.13'
+alias a44='ssh user_00@10.3.0.14'
+alias a45='ssh user_00@10.3.0.15'
+alias a46='ssh user_00@10.3.0.16'
+alias a47='ssh user_00@10.3.0.17'
+alias a48='ssh user_00@10.3.0.18'
+alias a49='ssh user_00@10.3.0.19'
+alias a50='ssh user_00@10.3.0.20'
+alias a51='ssh user_00@10.3.0.21'
+alias a52='ssh user_00@10.3.0.22'
+alias a53='ssh user_00@10.3.0.23'
+alias a54='ssh user_00@10.3.0.24'
+alias a55='ssh user_00@10.3.0.25'
+alias a56='ssh user_00@10.3.0.26'
+alias a57='ssh user_00@10.3.0.27'
+alias a58='ssh user_00@10.3.0.28'
+
+
+#####xybase
+alias b01='ssh user_00@10.2.0.44' 
+alias b02='ssh user_00@10.2.0.45' 
+alias b07='ssh user_00@10.3.0.40' 
+alias b08='ssh user_00@10.3.0.41' 
+alias b09='ssh user_00@10.3.0.47' 
+alias b10='ssh user_00@10.3.0.48' 
+alias b11='ssh user_00@10.3.0.49' 
+alias b12='ssh user_00@10.3.0.46' 
+alias b13='ssh user_00@10.3.0.30'
+alias b14='ssh user_00@10.3.0.45'
+
+
+#####xygraph
+
+alias g8='ssh user_00@10.3.0.38' 
+alias g1='ssh user_00@10.3.0.31' 
+alias g2='ssh user_00@10.3.0.32' 
+alias g3='ssh user_00@10.3.0.33' 
+alias g4='ssh user_00@10.3.0.34' 
+alias g5='ssh user_00@10.3.0.35' 
+alias g6='ssh user_00@10.3.0.36' 
+alias g7='ssh user_00@10.3.0.37' 
+
+
+#####xykafka
+alias k1='ssh user_00@10.0.122.8' 
+alias k2='ssh user_00@10.0.122.10' 
+alias k3='ssh user_00@10.0.122.15' 
+alias k4='ssh user_00@10.0.122.3' 
+alias k5='ssh user_00@10.0.122.16' 
+
+
+#####client node
+alias c2='ssh user_00@10.0.194.131'
+alias c3='ssh user_00@10.0.193.116'
+alias c4='ssh user_00@10.3.0.29'
+alias c5='ssh user_00@10.3.0.42'
+alias c6='ssh user_00@10.0.4.35'
+
+#####dmp test node
+alias t1='ssh user_00@10.0.192.161'
+alias t2='ssh user_00@10.0.192.197'
+alias t3='ssh user_00@10.0.192.132'
+
+
+
+
